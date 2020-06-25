@@ -1,0 +1,45 @@
+.background {
+	stroke-width: 0;
+	fill: white;
+	fill-opacity: 0.3;
+}
+
+.axis .domain,
+.axis .tick line {
+	stroke-width: 3px;
+	stroke: black;
+}
+
+.axis .tick:first-of-type {
+	display: none;
+}
+
+.axis .tick text {
+	font-size: 20px;
+}
+
+.minor-ticks text,
+.minor-ticks path {
+	display: none;
+}
+
+.pointers rect {
+	fill-opacity: 0.7;
+}
+
+.pointers .hour,
+.pointers .min {
+	fill: black;
+}
+
+.pointers .sec {
+	fill: darkgrey;
+}
+
+.pointers .center {
+	fill: darkgrey;
+}
+
+.sec {
+	display: none;
+}
